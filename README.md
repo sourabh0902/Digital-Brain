@@ -4,3 +4,4 @@ It is an Web App which can be to used to detect the human face in an image provi
 ## Features
 - It has Front-End using `React`.
 - `HTML` for text, `CSS` for the visuals and `JavaScript` to create logic and add behaviour to our front end apps.
+- 
