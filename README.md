@@ -3,11 +3,11 @@ It is an Web App which can be to used to detect the human face in an image provi
 
 ## Features
 ### Front-End 
-- Fully Responsive Website
+- Fully Responsive Website.
 - It has Front-End using `React`.
 - `HTML` for text, `CSS` for the visuals and `JavaScript` to create logic and add behaviour to our front end apps.
 - We used `create-react-app` that allowed us to use JS to manipulate the DOM HTML to add different information to the screen and use CSS to style the app.
-- Uses an Image Recognition `API`. Clarifai API used to do machine learning image API
+- Uses an Image Recognition `API`. Clarifai API used to do machine learning image API.
 
 #### React Libraries :
 - react-tilt
@@ -29,13 +29,18 @@ it and when it is stored in database.
 - Signin-route
 - Register-route
 - Profile with userID
-- image endpoint to update the counting of images submitted as links
+- Image endpoint to update the counting of images submitted as links
   
 #### Libraries for API :
 - nodemon
 - express
 - body-parser
 - cors
+
+### DataBase
+- It has a database also to store the info. about exisiting user OR the new user who registered it's details.
+- Using PostgreSQL as database to store information. Used Knex.js to connecting our server to our database.
+- The App is deployed on Heroku.
 
 
 
