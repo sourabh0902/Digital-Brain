@@ -50,5 +50,6 @@ it and when it is stored in database.
 
 ## Improvements
 - To be extra secure not using api key in our code for server and insted using something like environmental variables.
+- And many other improvements can be done.
 
 
