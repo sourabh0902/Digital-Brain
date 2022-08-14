@@ -54,4 +54,6 @@ it and when it is stored in database.
 - To be extra secure not using api key in our code for server and insted using something like environmental variables.
 - And many other improvements can be done.
 
-
+## Screenshots:
+- ![ScreenShot 1](https://github.com/sourabh0902/digital-brain/blob/master/public/Screenshot%20(22).png)
+- ![ScreenShot 2](https://github.com/sourabh0902/digital-brain/blob/master/public/Screenshot%20(23).png)
