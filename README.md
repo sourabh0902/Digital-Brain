@@ -1,7 +1,7 @@
 # Digital-Brain
 It is an Web App which can be to used to detect the human face in an image provided by a link in the box, and the AI will detect the face by making a square around the face and it will count the number of successfull face detected. By using a database we can store login credentials of new users OR existing users.
 
-*/ Back-End is attached in another repository named digital-brain-api /*
+  */ Back-End is attached in another repository named [digital-brain-api](https://github.com/sourabh0902/digital-brain-api) /*
 
 ## Features
 ### Front-End 
