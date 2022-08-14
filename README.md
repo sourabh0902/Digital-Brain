@@ -38,9 +38,14 @@ it and when it is stored in database.
 - cors
 
 ### DataBase
-- It has a database also to store the info. about exisiting user OR the new user who registered it's details.
-- Using PostgreSQL as database to store information. Used Knex.js to connecting our server to our database.
-- The App is deployed on Heroku.
+- It has a `database` also to store the info. about exisiting user OR the new user who registered it's details.
+- Using `PostgreSQL` as database to store information. Used `Knex.js` to connecting our server to our database.
+- The App is deployed on `Heroku`.
 
+## Challenges
+- While importing face-detection API from Clarifai. Beacause this API works with Create React App v4 and not with higher versions. Why? It's because CRA v5+ uses Webpack 5 as one of the dependencies, and Webpack 5 no longer lets you use the keyword process in your javascript files. So, needed to change "react-scripts" version to 4.0.2 specifically.
+- While creating the Face Detection Box which will calculate the locatin of the face and border the detected face in an image.
+- BIGGEST CHALLENGE! : I was having the lastest version of Node at the time of writing (i.e. 18.8) which is not a stable version, then it started giving me errors while typing 'npm start', then I installed LTS version of Node but then also it was not running and giving me unwanted errors, took me more than 4 days to figure out the issues, read every solution related to it and finally got some solution after many many hours.
+- 
 
 
