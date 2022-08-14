@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;  
+  padding: 0;
+  background: linear-gradient(90deg, #40E0D0 0%, #FF8C00 50%, #FF0080 100%);
+  background: url(../src/components/image.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+button {
+  cursor: pointer;
+  border-color: #301934;
+}
+button:hover {
+  border-color: white;
+}
+
+
+

@@ -1,0 +1,11 @@
+input:hover {
+    background-color: #c3ddfa;
+}
+
+input:focus{
+    background-color: #9cc7f6;
+}
+
+#sign_up {
+    color: black;
+}
