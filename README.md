@@ -1,59 +1,70 @@
-# Digital-Brain
-It is an Web App which can be to used to detect the human face in an image provided by a link in the box, and the AI will detect the face by making a square around the face and it will count the number of successfull face detected. By using a database we can store login credentials of new users OR existing users.
+# Getting Started with Create React App
 
-  */ Back-End is attached in another repository named [digital-brain-api](https://github.com/sourabh0902/digital-brain-api) /*
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
-### Front-End 
-- Fully Responsive Website.
-- It has Front-End using `React`.
-- `HTML` for text, `CSS` for the visuals and `JavaScript` to create logic and add behaviour to our front end apps.
-- We used `create-react-app` that allowed us to use JS to manipulate the DOM HTML to add different information to the screen and use CSS to style the app.
-- Uses an Image Recognition `API`. Clarifai API used to do machine learning image API.
+## Available Scripts
 
-#### React Libraries :
-- react-tilt
-- react-tsparticles-js
-- tachyons
-- clarafai
+In the project directory, you can run:
 
-### Back-End 
-- Using `Node` and `Express` to create our server.
-- Server allowed us to interact to the front end, so whenever a user logs in or a user submits a picture, our JavaScript code on the front end, our react app is going to send an HTP request to our server, to our node app that the user just signed in or the user just submitted an image in our node server, either logs us to the app or send the image information back and then send it to the front end.
+### `npm start`
 
-### API
-- Using `POSTMAN` for API testing
-- Used `bcrypt-nodejs` for encrypting password when user enters
-it and when it is stored in database.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-#### API Design :
-- Root-route
-- Signin-route
-- Register-route
-- Profile with userID
-- Image endpoint to update the counting of images submitted as links
-  
-#### Libraries for API :
-- nodemon
-- express
-- body-parser
-- cors
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### DataBase
-- It has a `database` also to store the info. about exisiting user OR the new user who registered it's details.
-- Using `PostgreSQL` as database to store information. Used `Knex.js` to connecting our server to our database.
-- The App is deployed on `Heroku`.
+### `npm test`
 
-## Challenges
-- While importing face-detection API from Clarifai. Beacause this API works with Create React App v4 and not with higher versions. Why? It's because CRA v5+ uses Webpack 5 as one of the dependencies, and Webpack 5 no longer lets you use the keyword process in your javascript files. So, needed to change "react-scripts" version to 4.0.2 specifically.
-- While creating the Face Detection Box which will calculate the location of the face and border the detected face in an image.
-- BIGGEST CHALLENGE! : I was having the lastest version of Node at the time of writing (i.e. 18.8) which is not a stable version, then it started giving me errors while typing 'npm start', then I installed LTS version of Node but then also it was not running and giving me unwanted errors, took me more than 4 days to figure out the issues, read every solution related to it and finally got some solution after many many hours.
-- And other many challenges and barriers which I brainstormed and found solutions related to issues.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Improvements
-- To be extra secure not using api key in our code for server and insted using something like environmental variables.
-- And many other improvements can be done.
+### `npm run build`
 
-## Screenshots:
-- ![ScreenShot 1](https://github.com/sourabh0902/digital-brain/blob/master/public/Screenshot%20(22).png)
-- ![ScreenShot 2](https://github.com/sourabh0902/digital-brain/blob/master/public/Screenshot%20(23).png)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
